@@ -6,8 +6,12 @@ import (
 )
 
 func main() {
+	aliceInitial := 1000
+	bobBonus := 800
+	aliceRate := 0.05
+	bobRate := 0.08
 
-	fmt.Println(minYearsToSurpass(1000, 800, 0.05, 0.08))
+	fmt.Println(minYearsToSurpass(aliceInitial, bobBonus, aliceRate, bobRate))
 
 }
 
